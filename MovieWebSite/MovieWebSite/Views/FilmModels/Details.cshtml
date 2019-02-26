@@ -1,0 +1,74 @@
+﻿@model MovieWebSite.Models.FilmModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>FilmModel</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.FilmName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.FilmName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.FilmDescription)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.FilmDescription)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ReleaseDate)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ReleaseDate)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.FilmLength)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.FilmLength)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.GenreId)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.GenreId)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Genre)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Genre)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.FilmModelID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
