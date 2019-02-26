@@ -201,9 +201,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\Actor.cs" />
-    <Compile Include="Models\Film.cs" />
-    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\ActorModel.cs" />
+    <Compile Include="Models\DirectorModel.cs" />
+    <Compile Include="Models\FilmModel.cs" />
+    <Compile Include="Models\GenreModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

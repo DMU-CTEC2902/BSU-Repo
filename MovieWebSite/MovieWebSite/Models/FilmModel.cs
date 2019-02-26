@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MovieWebSite.Models
 {
-    public class Film
+    public class FilmModel
     {
         public virtual int FilmID { get; set; }
         public virtual string FilmName { get; set; }
