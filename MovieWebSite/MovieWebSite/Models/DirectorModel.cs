@@ -5,9 +5,7 @@ using System.Web;
 
 namespace MovieWebSite.Models
 {
-    public class Genre
+    public class DirectorModel
     {
-        public virtual int GenreID { get; set; }
-        public virtual string GenreName { get; set; }
     }
 }
