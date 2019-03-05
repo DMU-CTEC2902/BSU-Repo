@@ -1,0 +1,58 @@
+﻿@model MovieWebSite.Models.ActorModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>ActorModel</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ActorName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ActorName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ActorBio)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ActorBio)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ActorDOB)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ActorDOB)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ActorRoles)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ActorRoles)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ActorModelID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

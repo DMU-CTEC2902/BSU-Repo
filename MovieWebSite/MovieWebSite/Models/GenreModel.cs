@@ -7,7 +7,7 @@ namespace MovieWebSite.Models
 {
     public class GenreModel
     {
-        public virtual int GenreID { get; set; }
+        public virtual int GenreModelID { get; set; }
         public virtual string GenreName { get; set; }
     }
 }

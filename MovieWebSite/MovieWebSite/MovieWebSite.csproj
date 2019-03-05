@@ -195,6 +195,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ActorModelsController.cs" />
+    <Compile Include="Controllers\DirectorModelsController.cs" />
     <Compile Include="Controllers\FilmModelsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -275,12 +277,21 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Home\AllFilms.cshtml" />
     <Content Include="Views\FilmModels\Create.cshtml" />
     <Content Include="Views\FilmModels\Delete.cshtml" />
     <Content Include="Views\FilmModels\Details.cshtml" />
     <Content Include="Views\FilmModels\Edit.cshtml" />
     <Content Include="Views\FilmModels\Index.cshtml" />
+    <Content Include="Views\DirectorModels\Create.cshtml" />
+    <Content Include="Views\DirectorModels\Delete.cshtml" />
+    <Content Include="Views\DirectorModels\Details.cshtml" />
+    <Content Include="Views\DirectorModels\Edit.cshtml" />
+    <Content Include="Views\DirectorModels\Index.cshtml" />
+    <Content Include="Views\ActorModels\Create.cshtml" />
+    <Content Include="Views\ActorModels\Delete.cshtml" />
+    <Content Include="Views\ActorModels\Details.cshtml" />
+    <Content Include="Views\ActorModels\Edit.cshtml" />
+    <Content Include="Views\ActorModels\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

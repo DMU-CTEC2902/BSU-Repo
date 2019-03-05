@@ -7,6 +7,6 @@ namespace MovieWebSite.Models
 {
     public class ReplyModel
     {
-        public virtual int ReplyID { get; set; }
+        public virtual int ReplyModelID { get; set; }
     }
 }

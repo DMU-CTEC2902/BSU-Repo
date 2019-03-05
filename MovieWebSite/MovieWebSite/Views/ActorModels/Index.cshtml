@@ -1,0 +1,59 @@
+﻿@model IEnumerable<MovieWebSite.Models.ActorModel>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ActorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ActorBio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ActorDOB)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ActorRoles)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActorName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActorBio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActorDOB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActorRoles)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.ActorModelID }) |
+                @Html.ActionLink("Details", "Details", new { id=item.ActorModelID }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.ActorModelID })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

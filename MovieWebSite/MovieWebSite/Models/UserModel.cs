@@ -7,7 +7,7 @@ namespace MovieWebSite.Models
 {
     public class UserModel
     {
-        public virtual int UserID { get; set; }
+        public virtual int UserModelID { get; set; }
         public virtual string UserName { get; set; }
         public virtual string Email { get; set; }
         public virtual DateTime UserDOB { get; set; }

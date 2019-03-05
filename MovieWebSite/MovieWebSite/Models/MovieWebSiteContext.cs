@@ -21,5 +21,9 @@ namespace MovieWebSite.Models
         }
 
         public DbSet<FilmModel> FilmModels { get; set; }
+
+        public System.Data.Entity.DbSet<MovieWebSite.Models.DirectorModel> DirectorModels { get; set; }
+
+        public System.Data.Entity.DbSet<MovieWebSite.Models.ActorModel> ActorModels { get; set; }
     }
 }
