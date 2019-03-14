@@ -12,5 +12,6 @@ namespace MovieWebSite.Models
         public virtual string ActorBio { get; set; }
         public virtual DateTime ActorDOB { get; set; }
         public virtual string ActorRoles { get; set; }
+        public virtual decimal Rating { get; set; }
     }
 }

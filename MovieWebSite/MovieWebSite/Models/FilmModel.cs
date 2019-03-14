@@ -12,6 +12,7 @@ namespace MovieWebSite.Models
         public virtual string FilmDescription { get; set; }
         public virtual DateTime ReleaseDate { get; set; }
         public virtual int FilmLength { get; set; }
+        public virtual decimal Rating { get; set; }
         public virtual int GenreId { get; set; }
         public virtual GenreModel Genre { get; set; }
     }
