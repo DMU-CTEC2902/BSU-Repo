@@ -14,5 +14,6 @@ namespace MovieWebSite.Models
         public virtual int FilmLength { get; set; }
         public virtual int GenreId { get; set; }
         public virtual GenreModel Genre { get; set; }
+        public virtual decimal Rating { get; set; }
     }
 }

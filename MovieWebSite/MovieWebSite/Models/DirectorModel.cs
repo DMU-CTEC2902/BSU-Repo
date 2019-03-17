@@ -11,5 +11,6 @@ namespace MovieWebSite.Models
         public virtual string DirectorName { get; set; }
         public virtual string DirectorBio { get; set; }
         public virtual DateTime DirectorDOB { get; set; }
-}
+        public virtual decimal Rating { get; set; }
+    }
 }
